@@ -5,9 +5,14 @@
     "description": "Belov Figma",
     "category": "formatting",
     "icon": "format-gallery",
-    "keywords": ["Belov Figma"],
+    "keywords": [
+        "Belov Figma"
+    ],
     "acf": {
         "mode": "preview",
         "renderTemplate": "render.php"
-    }
+    },
+    "style": [
+        "file:./style.css"
+    ]
 }
