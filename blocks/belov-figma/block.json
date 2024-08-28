@@ -13,6 +13,13 @@
         "renderTemplate": "render.php"
     },
     "style": [
+        "google-fonts",
         "file:./style.css"
-    ]
+    ],
+    "supports": {
+        "align": [
+            "wide",
+            "full"
+        ]
+    }
 }
