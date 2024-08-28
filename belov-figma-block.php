@@ -11,7 +11,6 @@
  * License: GPLv2 or later
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: belov-figma-block
- * 
  */
 
 //Exit if accessed directly
@@ -19,7 +18,8 @@ if (! defined('ABSPATH')) {
     exit;
 }
 
-function belov_figma_block() {
+function belov_figma_block()
+{
     // Register the block.
     register_block_type(__DIR__ . '/blocks/belov-figma');
 }

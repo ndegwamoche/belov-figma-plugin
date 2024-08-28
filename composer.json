@@ -1,0 +1,19 @@
+{
+    "name": "moche/belov-figma-plugin",
+    "description": "This project is a conversion of a pixel-perfect HTML version of a Figma design into a fully functional WordPress ACF block.",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Moche\\BelovFigmaPlugin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Martin Ndegwa Moche"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "squizlabs/php_codesniffer": "*"
+    }
+}

@@ -15,6 +15,7 @@
  */
 
 $featured_article = get_field('featured_article');
+$articles_list = get_field('articles_list');
 ?>
 
 <section class="articles-section">
