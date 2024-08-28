@@ -13,3 +13,15 @@
  * Text Domain: belov-figma-block
  * 
  */
+
+//Exit if accessed directly
+if (! defined('ABSPATH')) {
+    exit;
+}
+
+function belov_figma_block() {
+    // Register the block.
+    register_block_type(__DIR__ . '/blocks/belov-figma');
+}
+
+add_action('init', 'belov_figma_block');

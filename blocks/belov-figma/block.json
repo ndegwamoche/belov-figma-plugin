@@ -1,0 +1,13 @@
+{
+    "name": "acf/belov-figma",
+    "apiVersion": 2,
+    "title": "Belov Figma",
+    "description": "Belov Figma",
+    "category": "formatting",
+    "icon": "format-gallery",
+    "keywords": ["Belov Figma"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "render.php"
+    }
+}
