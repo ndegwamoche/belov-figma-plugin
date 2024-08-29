@@ -18,7 +18,7 @@ $featured_article = get_field('featured_article');
 $other_articles = get_field('other_articles');
 ?>
 
-<section class="articles-section">
+<section class="articles-section" <?php echo get_block_wrapper_attributes(); ?>>
     <div class="wrapper" style="align-items: flex-start;">
         <?php if ($featured_article) : ?>
             <div class="featured-article">
